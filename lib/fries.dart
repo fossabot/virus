@@ -10,7 +10,7 @@ class FriesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text("WOW Pizza"),
+        title: Text(" Fries"),
         actions: [
           IconButton(
             icon: FaIcon(FontAwesomeIcons.twitter, color: Colors.white),

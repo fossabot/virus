@@ -8,7 +8,7 @@ class PizzaScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange, // AppBar background color
-        title: Text("WOW Pizza"),
+        title: Text("Cheese Pizza"), // AppBar title
         actions: [
           IconButton(
             icon: FaIcon(

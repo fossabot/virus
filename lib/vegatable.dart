@@ -11,7 +11,7 @@ class VegetableScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text("WOW Pizza"),
+        title: Text(" Vegatable"),
         actions: [
           IconButton(
             icon: FaIcon(FontAwesomeIcons.twitter, color: Colors.white),
