@@ -1,3 +1,6 @@
+1. AndroidManifest.xml 
+
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="multiple_screens"
@@ -43,3 +46,6 @@
         </intent>
     </queries>
 </manifest>
+
+
+
