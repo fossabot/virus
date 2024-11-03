@@ -104,7 +104,6 @@ class HomeScreen extends StatelessWidget {
                 );
               },
             ),
-            // Add more ListTiles for other menu items if needed
           ],
         ),
       ),
@@ -121,7 +120,7 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => VegetableScreen()), // Ensure this matches the correct screen
+                      MaterialPageRoute(builder: (context) => VegetableScreen()),
                     );
                   },
                 ),
@@ -164,6 +163,40 @@ class HomeScreen extends StatelessWidget {
                 "This is the home screen",
                 style: TextStyle(fontSize: 14, color: Colors.white),
               ),
+            ),
+          ],
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            IconButton(
+              icon: FaIcon(FontAwesomeIcons.pizzaSlice),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => PizzaScreen()),
+                );
+              },
+            ),
+            IconButton(
+              icon: FaIcon(FontAwesomeIcons.carrot),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => VegetableScreen()),
+                );
+              },
+            ),
+            IconButton(
+              icon: FaIcon(FontAwesomeIcons.hamburger),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FriesScreen()),
+                );
+              },
             ),
           ],
         ),
