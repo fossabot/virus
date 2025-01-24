@@ -1,4 +1,6 @@
 # Flutter Multi-Screen Practice Project
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0xV1rus%2Fvirus.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F0xV1rus%2Fvirus?ref=badge_shield)
+
 
 This Flutter project is designed to practice working with multiple screens, navigation, and using FontAwesome icons. It contains several screens, each showcasing a different type of content and layout. This project is suitable for those looking to improve their Flutter skills, particularly in navigation between screens, adding custom icons, and implementing drawers and footers.
 
@@ -44,3 +46,6 @@ Feel free to fork the project, experiment with it, and contribute back if you wi
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0xV1rus%2Fvirus.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F0xV1rus%2Fvirus?ref=badge_large)
